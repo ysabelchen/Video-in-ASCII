@@ -18,7 +18,9 @@ string pixelToASCII(int pixel_intensity) {
 }
 
 int main() {
-    string video_path = "/Users/22ysabelc/Desktop/Personal Projects/C++ Video to ASCII/vid4.mp4";
+    // vid1.mp4: https://www.pexels.com/video/a-dog-fights-with-his-reflection-in-the-mirror-3042473/
+    // vid2.mp4: https://www.pexels.com/video/falcon-flying-and-land-on-a-wooden-perch-7668765/
+    string video_path = "/Users/22ysabelc/Desktop/Personal Projects/C++ Video to ASCII/vid1.mp4";
     VideoCapture capture(video_path);
 
     double fps = capture.get(CAP_PROP_FPS);
